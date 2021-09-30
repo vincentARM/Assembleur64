@@ -11,5 +11,5 @@ _start:
     mov rdx,22     ; longueur 
     syscall
     mov rax,60     ; exit
-    mov rbx,5      ; code retour
+    mov rdi,0      ; code retour OK
     syscall
